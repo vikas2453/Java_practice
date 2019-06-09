@@ -9,10 +9,10 @@ import java.util.TreeSet;
 public class AnonymousInnerClass {
 	
 	int x=11;
-	Customer customer1= new Customer("Ram", "Kishen", "Shamli", 22);
-	Customer customer2= new Customer("Sam", "Jishen", "Thamli", 20);
-	Customer customer3= new Customer("Tam", "Iishen", "Uhamli", 24);
-	Customer customer4= new Customer("Uam", "Hishen", "Vhamli", 21);
+	Customer customer1= new Customer("Ram", "Kishen", "Shamli", 22,Gender.Male);
+	Customer customer2= new Customer("Sam", "Jishen", "Thamli", 20, Gender.Male);
+	Customer customer3= new Customer("Tam", "Iishen", "Uhamli", 24, Gender.Male);
+	Customer customer4= new Customer("Uam", "Hishen", "Vhamli", 21, Gender.Male);
 	
 	List<Customer> listofCustomer= new ArrayList<Customer>();
 	{

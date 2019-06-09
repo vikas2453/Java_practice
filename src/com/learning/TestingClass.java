@@ -11,9 +11,9 @@ public class TestingClass {
 		Set<Customer>customerset=new HashSet<Customer>();
 		
 		//let's create some equal objects and store them in the set.
-		Customer c1 =new Customer("Vikas", "Natick","email_address");
-		Customer c2 =new Customer("Vikas", "Natick","email_address");
-		Customer c3 =new Customer("Vikas", "Natick","email_address");
+		Customer c1 =new Customer("Vikas", "Natick","email_address", 25, Gender.Male);
+		Customer c2 =new Customer("Vikas", "Natick","email_address",25, Gender.Male);
+		Customer c3 =new Customer("Vikas", "Natick","email_address",25, Gender.Male);
 		customerset.add(c1);
 		customerset.add(c2);
 		customerset.add(c3);

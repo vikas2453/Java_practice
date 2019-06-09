@@ -1,6 +1,6 @@
 package com.learning;
 
-interface Consumer<T>{
+interface MyConsumer<T>{
 	public int accept (int x);
 }
 
