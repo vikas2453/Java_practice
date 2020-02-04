@@ -1,5 +1,11 @@
 package com.testing;
-import com.learning.*;
+import com.fun.learning.Course;
+import com.fun.learning.GraduateStudent;
+import com.fun.learning.Product;
+import com.fun.learning.SerializableEx;
+import com.fun.learning.SerializableProcess;
+import com.fun.learning.Student;
+
 
 import java.io.IOException;
 
